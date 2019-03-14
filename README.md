@@ -4,7 +4,7 @@ Ceci est une tentative de dockerisation d'[Opentheso](https://github.com/miledro
 
 Une première image, ```stretch-java```, fournit un environnement Debian Stretch avec Java 8 et Tomcat 9.
 
-Une seconde image, ```open theso```, réalise le paramétrage nécessaire.
+Une seconde image, ```opentheso```, réalise le paramétrage nécessaire.
 
     cd stretch-java && docker build --tag=stretch-java .
     cd opentheso && docker build --tag=opentheso .
