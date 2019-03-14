@@ -1,0 +1,1 @@
+docker exec -i -t $(docker ps | grep opentheso | cut -d " " -f 1) /bin/bash 
